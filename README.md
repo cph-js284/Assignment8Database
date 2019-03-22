@@ -44,3 +44,6 @@ Below are screenshots to document the slave is indeed up and running - and that 
 ------------------------------------------------------------------------
 # Replication delay
 Below is a screenshot to document the replication delay between the master(Singapore) and the slave(Frankfurt)
+![replication_delay](https://github.com/cph-js284/Assignment8Database/blob/master/images/replicationdelay.png)
+<br>
+*The arrow point to the number of seconds delay between the master and slave. A ping test between between the master and Copenhagen results in roughly 400ms delay, which would indeed be rounded down to 0 secs.*
