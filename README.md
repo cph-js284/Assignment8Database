@@ -41,6 +41,13 @@ The second role is for connecting your own slave meant to replicate changes made
 # Connection established / slave status
 Below are screenshots to document the slave is indeed up and running - and that the master and slave are in-sync (indicated by the position number being the same on both the databases) 
 
+![connection](https://github.com/cph-js284/Assignment8Database/blob/master/images/slave_status.png)
+<br>
+*The green arrows in the top of the image indicates the slave is up and running and waiting to receive event from the master - The green arrow in the bottom of the image indicates no I/O-errors*<br>
+*The blue arrows are pointing to the position the slave is reading from the log both of these positions are identical with the position of the master (screenshot below) meaning they are in-sync*<br>
+<br>
+![masterstatus](https://github.com/cph-js284/Assignment8Database/blob/master/images/master_status.png)
+
 ------------------------------------------------------------------------
 # Replication delay
 Below is a screenshot to document the replication delay between the master(Singapore) and the slave(Frankfurt)
