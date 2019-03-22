@@ -35,6 +35,8 @@ The second role is for connecting your own slave meant to replicate changes made
 
 *Please note:<br>Since multiple people will be granted access to modify the data contained in the customer table I can not vouch for whatever data might be inthere when you read from it*
 
+<b>Important - when setting up your own slave, please be aware that I have already used *SERVER-ID : 1* so you have to assign a different id to your slave</b>
+
 ------------------------------------------------------------------------
 # Connection established / slave status
 Below are screenshots to document the slave is indeed up and running - and that the master and slave are in-sync (indicated by the position number being the same on both the databases) 
