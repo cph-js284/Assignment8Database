@@ -35,7 +35,7 @@ The second role is for connecting your own slave meant to replicate changes made
 
 *Please note:<br>Since multiple people will be granted access to modify the data contained in the customer table I can not vouch for whatever data might be inthere when you read from it*
 
-<b>Important - when setting up your own slave, please be aware that I have already used *SERVER-ID : 1* for the master - so you have to assign a different id to your slave</b>
+<b>Important - when setting up your own slave, please be aware that I have already used *SERVER-ID : 1* and *SERVER-ID : 2* for the master and my own slave - so you have to assign a different id to your slave</b>
 
 ------------------------------------------------------------------------
 # Connection established / slave status
