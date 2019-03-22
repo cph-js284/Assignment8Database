@@ -17,8 +17,8 @@ This account is used for logging into the MySql-master
 MASTER-IPADR    : *****
 USER-LOGIN      : *****
 USER-PASSWORD   : *****
-RIGHTS GRANTE   : INSERT, SELECT, UPDATE
-TABLE(S)        : customers, employees
+RIGHTS GRANTE   : SUPER, RELOAD,LOCK, INSERT, SELECT, UPDATE
+TABLE(S)        : all tables (customers, employees - for modification and reads)
 ------------------------------------------------------------------
 
 This account is used for creating your own slave
