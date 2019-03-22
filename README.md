@@ -18,7 +18,7 @@ MASTER-IPADR    : *****
 USER-LOGIN      : *****
 USER-PASSWORD   : *****
 RIGHTS GRANTE   : INSERT, SELECT, UPDATE
-TABLE(S)        : customers
+TABLE(S)        : customers, employees
 ------------------------------------------------------------------
 
 This account is used for creating your own slave
