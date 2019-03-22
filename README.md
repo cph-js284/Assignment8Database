@@ -33,7 +33,8 @@ TABLE(S)        : all tables
 The first role is for accessing the master and modify the *customer* and/or *employees* table, to actually verify that the changes made to the master are reflected on the slave.<br>
 The second role is for connecting your own slave meant to replicate changes made to the master.
 <br>
-Privileges:<br>
+<br>
+<b>Privileges:</b><br>
 SUPER : to show the master status to make a note of the position, this is needed when creating the slave<br>
 RELOAD : to flush and lock the tables before dumping data<br>
 LOCK : needed to execute the mysqldump command<br>
@@ -41,11 +42,12 @@ INSERT, UPDATE, SELECT : to modify data as needed.<br>
 REPLICATION SLAVE : needed to connect a slave to the master for replication<br>
 <br>
 
-
-
 *Please note:<br>Since multiple people will be granted access to modify the data contained in the customer table I can not vouch for whatever data might be inthere when you read from it*
 
 <b>Important - when setting up your own slave, please be aware that I have already used *SERVER-ID : 1* and *SERVER-ID : 2* for the master and my own slave - so you have to assign a different id to your slave, also - the reviewer before you might have used ID : 3 </b>
+
+# step-by-step
+For at step-by-step guide on how to master-slave replication please follow the guide from the assignment text.
 
 ------------------------------------------------------------------------
 # Connection established / slave status
