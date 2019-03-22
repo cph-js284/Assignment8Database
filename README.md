@@ -37,7 +37,7 @@ The second role is for connecting your own slave meant to replicate changes made
 
 ------------------------------------------------------------------------
 # Connection established / slave status
-Below are screenshots to document the slave is indeed up and running - and that the master and slave are in-sync (indicated by the progession number being the same on both the databases) 
+Below are screenshots to document the slave is indeed up and running - and that the master and slave are in-sync (indicated by the position number being the same on both the databases) 
 
 ------------------------------------------------------------------------
 # Replication delay
