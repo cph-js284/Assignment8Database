@@ -14,20 +14,20 @@ The file conntains information reguarding 2 user roles:<br>
 ------------------------------------------------------------------
 This account is used for logging into the MySql-master
 ------------------------------------------------------------------
-MASTER-IPADR	  : *****
-USER-LOGIN	    : *****
-USER-PASSWORD	  : *****
-RIGHTS GRANTED	: INSERT, SELECT, UPDATE
-TABLE(S)	      : customers
+MASTER-IPADR    : *****
+USER-LOGIN      : *****
+USER-PASSWORD   : *****
+RIGHTS GRANTE   : INSERT, SELECT, UPDATE
+TABLE(S)        : customers
 ------------------------------------------------------------------
 
 This account is used for creating your own slave
 ------------------------------------------------------------------
-MASTER-IPADR	  : *****
-USER-LOGIN	    : *****
-USER-PASSWORD	  : *****
-RIGHTS GRANTED	: REPLICATION SLAVE
-TABLE(S)	      : all tables
+MASTER-IPADR    : *****
+USER-LOGIN      : *****
+USER-PASSWORD   : *****
+RIGHTS GRANTED  : REPLICATION SLAVE
+TABLE(S)        : all tables
 ------------------------------------------------------------------
 ````
 The first role is for accessing the master and modify the customer table, to actually verify that the changes made to the master are reflected on the slave.<br>
