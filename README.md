@@ -17,7 +17,7 @@ This account is used for logging into the MySql-master
 MASTER-IPADR    : *****
 USER-LOGIN      : *****
 USER-PASSWORD   : *****
-RIGHTS GRANTE   : SUPER, RELOAD,LOCK, INSERT, SELECT, UPDATE
+RIGHTS GRANTED   : SUPER, RELOAD, LOCK, INSERT, SELECT, UPDATE
 TABLE(S)        : all tables (customers, employees - for modification and reads)
 ------------------------------------------------------------------
 
@@ -32,6 +32,16 @@ TABLE(S)        : all tables
 ````
 The first role is for accessing the master and modify the *customer* and/or *employees* table, to actually verify that the changes made to the master are reflected on the slave.<br>
 The second role is for connecting your own slave meant to replicate changes made to the master.
+<br>
+Privileges:<br>
+SUPER : to show the master status to make a note of the position, this is needed when creating the slave<br>
+RELOAD : to flush and lock the tables before dumping data<br>
+LOCK : needed to execute the mysqldump command<br>
+INSERT, UPDATE, SELECT : to modify data as needed.<br>
+REPLICATION SLAVE : needed to connect a slave to the master for replication<br>
+<br>
+
+
 
 *Please note:<br>Since multiple people will be granted access to modify the data contained in the customer table I can not vouch for whatever data might be inthere when you read from it*
 
