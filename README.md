@@ -17,7 +17,7 @@ This account is used for logging into the MySql-master
 MASTER-IPADR    : *****
 USER-LOGIN      : *****
 USER-PASSWORD   : *****
-RIGHTS GRANTED   : SUPER, RELOAD, LOCK, INSERT, SELECT, UPDATE
+RIGHTS GRANTED  : SUPER, RELOAD, LOCK, INSERT, SELECT, UPDATE
 TABLE(S)        : all tables (customers, employees - for modification and reads)
 ------------------------------------------------------------------
 
